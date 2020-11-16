@@ -1,0 +1,166 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.main{
+    margin : 50px 0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width:1000px;
+    height:670px;
+}
+
+.title__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__title{
+    margin: 20px 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.intro__column{
+    margin: 0px 0px 15px 20px;
+}
+
+.purpose__column{
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+.how__column{
+    margin-bottom:10px;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-size: 18px;
+    margin-left:10px;
+}
+
+.questions__column{
+    margin: 50px 0px 30px 20px;
+}
+
+.question__column{
+    margin: 20px 0px;
+    margin-bottom:30px;
+}
+
+.question-content{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.btns{
+    margin-left:-35px;
+}
+.btn{
+    margin-left:50px;
+}
+.slider__column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.slider{
+    width: 90%;
+    height:15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #d3d3d3;
+    outline:none;
+    border-radius: 25px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  .slider__content{
+      margin-top:10px;
+      width: 92%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .slider-content{
+      font-size: 21px;
+  }
+
+  .submit__column{
+    margin-top: 50px;  
+    width:95%;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .submit{
+      width:80px;
+      height:35px;
+      font-size: 17px;
+  }
+
+  .logo__column{
+      width:95%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .dku{
+      margin-top:50px;
+
+    width: 500px;
+    height:120px;
+  }
+
+  .ssl{
+
+      margin-top:50px;
+      width:400px;
+      height:100px;
+  }
+
+  .thank__column{
+      margin-top:30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .thank__title{
+      margin-top:100px;
+      font-size: 70px;
+      font-weight: bold;
+  }
+
+  .thank__content{
+      margin-top:50px;
+      font-size: 40px;
+      margin-bottom:118px;
+    
+  }

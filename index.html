@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Smart Lab Survey</title>
+    <link rel = "stylesheet" href="reset.css"/>
+    <link rel = "stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class = "main">
+        <div class = "title__column">
+            <div class="title__title">가변형 차양 제어 기준에 관한 상대적 중요도 평가
+            </div>
+        </div>
+        <div class = "intro__column">
+            <div class = "purpose__column">
+                <div class ="purpose title">설문목적</div>
+                <div class ="purpose-content content">
+                    건물에 설치된 가변형 차양 제어 시 제어기준에 관한 개인별 선호도를 반영하기 위함
+                </div>
+            </div>
+            <div class = "how_column">
+                <div class ="how title">설문방법</div>
+                <div class = "how-content content">
+                    [냉방부하 저감]과 [쾌적한 실내조도 조성]에 대한 상대적 중요도를 선택문항에서 슬라이더바로 나타내 주세요.
+                </div>
+            </div>
+        </div>
+        <div class = "questions__column">
+          <!--  <div class="question__column">
+                <div class="question title">질문 #1</div>
+                <div class="question-content content">
+                    냉방기간 중 실내환경을 제어할 때 냉방부하저감을 얼마나 중요하게 생각하는 지 선택해주세요.
+                </div>
+                <div class="btns">
+                <input type="radio" name="chk_info" class="btn"> 전혀 신경쓰지 않음
+                <input type="radio" name="chk_info" class="btn"> 별로 중요하지 않음
+                <input type="radio" name="chk_info" class="btn"> 보통
+                <input type="radio" name="chk_info" class="btn"> 상당히 중요함
+                <input type="radio" name="chk_info" class="btn"> 굉장히 중요함
+                </div>
+            </div>-->
+            <div class="question__column">
+                <div class="question title">질문 #1</div>
+                <div class="question-content content">
+                    [냉방부하 저감]과 [쾌적한 실내조도]에 대한 상대적인 중요도를 표기해 주세요.
+                </div>
+                <div class="slider__column">
+                    <input name="slider" class="slider" type="range" min="0" max="100" value="50">
+                    <div class="slider__content">
+                        <div class="slider-content">[냉방부하 저감]</div>
+                        <div class="slider-content">[쾌적한 실내조도]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "submit__column">
+            <a href="thanks.html">
+                <input type="submit" valure="제출" class="submit"/>
+            </a>
+        </div>
+        <div class = "logo__column">
+            <img class="dku" src="https://ww.namu.la/s/87ec45df10f91ab75a381f878f3938d72fea5014e491f02ea758c922f4c6b78cf9bd554ea76d1224b63476ce6b6edeed5cc73400b8b7de5cd8a34903ece507940245f25c5749fbdaccc4c0ff48598b201df9b3a25bfc0df22b0139341c824861" class="dku"/>
+            <img src="ssl.png" class="ssl"/>
+        </div>
+    </div>
+</body>
+</html>
