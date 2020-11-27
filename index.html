@@ -7,6 +7,12 @@
     <link rel = "stylesheet" href="reset.css"/>
     <link rel = "stylesheet" href="index.css"/>
 </head>
+<script type="text/javascript">
+function move(){
+        location.replace("thanks.html");
+}
+
+</script>
 <body>
     <div class = "main">
         <div class = "title__column">
@@ -48,7 +54,7 @@
                     [냉방부하 저감]과 [쾌적한 실내조도]에 대한 상대적인 중요도를 표기해 주세요.
                 </div>
                 <div class="slider__column">
-                    <input name="slider" class="slider" type="range" min="0" max="100" value="50">
+                    <input name="slider" class="slider" type="range" min="0" max="100" value="50" step="10">
                     <div class="slider__content">
                         <div class="slider-content">[냉방부하 저감]</div>
                         <div class="slider-content">[쾌적한 실내조도]</div>
@@ -59,7 +65,7 @@
         
             <div class = "submit__column">
                 <a href="thanks.html">
-                    <input type="submit" value="제출" class="submit"/>
+                    <input type="submit" value="제출" class="submit" onclick="javascript:move();"/>
                 </a>
             </div>
         </form>
